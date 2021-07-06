@@ -14,11 +14,9 @@ public class verifyLoginPage  extends LoginPage{
 		System.out.println("Step 1 Expected :  verify Login Page should display");
 		loginclick();
 		
-		System.out.println("Step 2:  verify facebook link");
-		System.out.println("Step 2 Expected :  should display FB Link");
-		veifyFbLink();
-		
-		
+//		System.out.println("Step 2:  verify facebook link");
+//		System.out.println("Step 2 Expected :  should display FB Link");
+//		veifyFbLink();
 		
 	}
 

@@ -5,8 +5,11 @@
     <classes>
       <class name="LoginPage.verifyLoginPage">
         <methods>
+          <include name="startMethod"/>
+          <include name="InitializeParameters"/>
+          <include name="endMethod"/>
+          <include name="dumpParameters"/>
           <include name="verifyLoginpage"/>
-          <include name="start"/>
         </methods>
       </class> <!-- LoginPage.verifyLoginPage -->
     </classes>

@@ -2,19 +2,83 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4642" started-at="2021-05-28T13:35:42 IST" finished-at="2021-05-28T13:35:47 IST">
+  <suite name="Default suite" duration-ms="14409" started-at="2021-07-06T11:33:46 IST" finished-at="2021-07-06T11:34:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4642" started-at="2021-05-28T13:35:42 IST" finished-at="2021-05-28T13:35:47 IST">
+    <test name="Default test" duration-ms="14409" started-at="2021-07-06T11:33:46 IST" finished-at="2021-07-06T11:34:00 IST">
       <class name="LoginPage.verifyLoginPage">
-        <test-method status="PASS" signature="start()[pri:0, instance:LoginPage.verifyLoginPage@185d8b6]" name="start" is-config="true" duration-ms="10325" started-at="2021-05-28T13:35:32 IST" finished-at="2021-05-28T13:35:42 IST">
+        <test-method status="PASS" signature="InitializeParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LoginPage.verifyLoginPage@453da22c]" name="InitializeParameters" is-config="true" duration-ms="121" started-at="2021-07-06T11:33:45 IST" finished-at="2021-07-06T11:33:46 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="verifyLoginpage()[pri:0, instance:LoginPage.verifyLoginPage@185d8b6]" name="verifyLoginpage" duration-ms="4620" started-at="2021-05-28T13:35:42 IST" finished-at="2021-05-28T13:35:47 IST">
+        </test-method> <!-- InitializeParameters -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:LoginPage.verifyLoginPage@453da22c]" name="startMethod" is-config="true" duration-ms="5641" started-at="2021-07-06T11:33:46 IST" finished-at="2021-07-06T11:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void LoginPage.verifyLoginPage.verifyLoginpage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="verifyLoginpage()[pri:0, instance:LoginPage.verifyLoginPage@453da22c]" name="verifyLoginpage" duration-ms="8750" started-at="2021-07-06T11:33:51 IST" finished-at="2021-07-06T11:34:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="endMethod(org.testng.ITestResult)[pri:0, instance:LoginPage.verifyLoginPage@453da22c]" name="endMethod" is-config="true" duration-ms="1" started-at="2021-07-06T11:34:00 IST" finished-at="2021-07-06T11:34:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginpage status=SUCCESS method=verifyLoginPage.verifyLoginpage()[pri:0, instance:LoginPage.verifyLoginPage@453da22c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+        <test-method status="PASS" signature="dumpParameters()[pri:0, instance:LoginPage.verifyLoginPage@453da22c]" name="dumpParameters" is-config="true" duration-ms="6956" started-at="2021-07-06T11:34:00 IST" finished-at="2021-07-06T11:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dumpParameters -->
       </class> <!-- LoginPage.verifyLoginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
