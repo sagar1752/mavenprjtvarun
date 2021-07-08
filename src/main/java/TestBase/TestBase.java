@@ -82,7 +82,8 @@ public class TestBase {
 		Date now = new Date();
 		String strDate = sdfDate.format(now);
 
-		path = testConfig.getRunTimeProperty("ResultsDir") + testConfig.getRunTimeProperty("fileSeparator") + strDate;
+	//	path = testConfig.getRunTimeProperty("ResultsDir") + testConfig.getRunTimeProperty("fileSeparator") + strDate;
+		path = testConfig.getRunTimeProperty("ResultsDir") + testConfig.getRunTimeProperty("fileSeparator");
 
 		new File(path).mkdirs();
 		extentReportFile = path + testConfig.getRunTimeProperty("fileSeparator")
